@@ -1,0 +1,23 @@
+.her {
+  color:gray;
+  font-weight: bold;
+  width: cover;
+  height: cover;
+  text-align: center;
+  /* background-color: green; */
+  background-size: cover;
+  background-position: center;
+  background-image: url('https://media.giphy.com/media/OLCY8qDhmR6zm/giphy.gif');
+  background-repeat: no-repeat;
+  background-color: lightblue;
+  opacity: .5
+
+
+
+}
+
+
+.herm {
+  text-align: center;
+  background-color: lightblue
+}

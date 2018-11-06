@@ -1,0 +1,29 @@
+
+
+
+.herm {
+  text-align: center;
+  background-color: lightblue
+}
+
+
+.further {
+  width: 100%;
+  height: 100%
+
+}
+
+.further::after {
+  content: "";
+  opacity: 0.39;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  background-image: url('https://www.universalorlando.co.uk/uocouk/Images/BB_DA_Ollivanders_tcm37-54713.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: lightblue;
+  z-index: -1;
+}

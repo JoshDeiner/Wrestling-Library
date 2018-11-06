@@ -1,0 +1,60 @@
+
+div.home-container {
+}
+
+.App {
+  text-align: center;
+}
+
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+div.page {
+  position:absolute;
+  left:0;
+  right:0;
+  top:0;
+  bottom:0;
+}
+
+
+a {
+  text-decoration: none;
+  /* color: rgb(173, 70, 162); */
+  /* color: rgb(147, 64, 153); */
+  color: #e386a9;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+}
+
+a:hover {
+  color: rgb(187, 143, 206);
+  cursor:pointer;
+  font-weight: bold;
+}
+
+button.get-new {
+  position:relative;
+  padding:5px 10px;
+  box-shadow: 1px 1px 1px black;
+  background-color: rgb(28,70,115);
+  border: 2px solid rgb(106,167,232);
+  color:white;
+  transition: all 0.5s;
+  margin-top:20px;
+}
+
+div.getnew-container p {
+  font-size: 0.8rem;
+}
+
+button.get-new:hover {
+  color:white;
+  background-color: rgba(28,70,115,0.8);
+  cursor:pointer;
+}

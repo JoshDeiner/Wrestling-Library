@@ -1,0 +1,44 @@
+div.login-container {
+  width:50%;
+  min-width:400px;
+  margin:auto;
+  background-color: black;
+  height:400px;
+  margin-top: 10%;
+  color:white;
+  text-align: center;
+}
+
+div.login-container input {
+  line-height: 2rem;
+  font-size: 1rem;
+}
+
+div.login-container form > * {
+  display:block;
+  margin:auto;
+  margin-bottom:1.5rem;
+}
+
+div.login-container h1 {
+  padding-top: 50px;
+}
+
+div.login-container a {
+  /* color: rgb(77, 0, 153); */
+  color:rgba(255, 255, 255, 0.5);
+  font-size: 0.9rem;
+  letter-spacing: 0.2rem;
+  text-decoration: none;
+  padding-bottom:4px;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+}
+
+div.login-container a:hover {
+  border-bottom: 1px dashed white;
+  color:rgba(255, 255, 255, 0.9);
+}

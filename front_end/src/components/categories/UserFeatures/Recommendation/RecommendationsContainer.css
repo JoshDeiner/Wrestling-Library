@@ -1,0 +1,74 @@
+
+.list {
+  text-align: center
+}
+.formfield {
+  text-align: center
+}
+.RecommendationsContainer{
+  text-align: center;
+  color:red
+}
+
+.center {
+  text-align: left;
+  padding-left: 2%
+}
+.BigTechContainer {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1/3;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  background-image: url('https://files.slack.com/files-tmb/T02MD9XTF-FACFEMGCE-5835ec3b35/image_uploaded_from_ios_1024.jpg');
+  background-repeat: no-repeat;
+  opacity: 0.6;
+
+
+
+
+
+}
+
+
+.reviews {
+  display: grid;
+  grid-template-columns: 2/3;
+  text-align: left
+
+}
+
+.formfield {
+  display: grid;
+  text-align: right;
+  grid-gap: 50px 100px;
+
+}
+#other {
+  display: inline-grid;
+  grid-gap: 50px 100px;
+
+
+}
+
+h3 {
+  color: magenta;
+  font-size: 506%
+}
+/*
+.BigTechContainer::after {
+  content: "";
+  opacity: 0.39;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  background-image: url('https://files.slack.com/files-tmb/T02MD9XTF-FACFEMGCE-5835ec3b35/image_uploaded_from_ios_1024.jpg');
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-color: lightblue;
+  z-index: -1;
+} */

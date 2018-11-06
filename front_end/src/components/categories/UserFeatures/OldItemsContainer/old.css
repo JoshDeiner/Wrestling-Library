@@ -1,0 +1,14 @@
+.old {
+  text-align: center;
+  background-color:gray
+}
+
+.older {
+  background-color: magenta
+}
+
+.olditems {
+  font-weight: bold;
+  font-size: 120%;
+  color:white
+}

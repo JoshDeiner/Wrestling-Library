@@ -1,0 +1,20 @@
+button.load-more {
+  display:block;
+  width:50%;
+  padding:5px 10px;
+  box-shadow: 1px 1px 1px black;
+  background-color: rgb(28,70,115);
+  border: 2px solid rgb(106,167,232);
+  color:white;
+  transition: all 0.5s;
+  margin:auto;
+  margin-bottom: 30px;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+button.load-more:hover {
+  color:white;
+  background-color: rgba(28,70,115,0.8);
+  cursor:pointer;
+}

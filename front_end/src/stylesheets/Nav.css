@@ -1,0 +1,41 @@
+div.nav {
+  position:relative;
+  top:0;
+  right:0;
+  text-align:right;
+  margin-bottom: 30px;
+}
+
+div.nav div.inner-nav {
+  display:inline-block;
+  padding:5px;
+}
+
+div.nav a {
+  position:relative;
+  padding:5px 10px;
+  margin:2px;
+  box-shadow: 1px 1px 1px black;
+  background-color: rgb(28,70,115);
+  border: 2px solid rgb(106,167,232);
+  color:white;
+  padding-top: 25px;
+  top:0;
+  transition: all 0.5s;
+}
+
+div.nav a:hover {
+  /* z-index:1; */
+  top:15px;
+  color:white;
+  background-color: rgba(28,70,115,0.8);
+  font-weight: normal;
+}
+
+img.icon {
+  height:10px;
+}
+
+.divNav {
+  background-color:lightblue
+}

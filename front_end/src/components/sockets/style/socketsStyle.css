@@ -1,0 +1,28 @@
+
+.messagesArea {
+
+}
+
+.opening {
+  padding-left: 1%;
+  text-align: left
+}
+
+
+
+/* .showitems {
+  display: grid
+} */
+
+.conversationsList {
+  display: inline-grid;
+  grid-template-columns: auto   ;
+}
+.messagesArea {
+  padding: 10%;
+  font-size: 150%;
+  text-align: center;
+  border: 10px black;
+  display: grid;
+  grid-template-columns: auto  ;
+}

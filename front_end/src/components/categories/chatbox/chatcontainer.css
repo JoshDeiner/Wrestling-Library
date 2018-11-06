@@ -1,0 +1,16 @@
+.chatcontainer {
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: lightblue
+}
+
+.chats {
+  text-align: left;
+  padding-left: 35%
+}
+
+
+h2:hover {
+  background-color: magenta
+}
