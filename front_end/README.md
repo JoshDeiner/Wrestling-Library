@@ -1,6 +1,5 @@
 # Wrestling Library UI
-##
-##    
+## Front end of Wrestling Library   
 
 
 ## Get Started:
