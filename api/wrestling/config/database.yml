@@ -80,6 +80,7 @@ test:
 #
 production:
   <<: *default
+  adapter: postgresql
   database: wrestling_backend_production
   username: wrestling_backend
   password: <%= ENV['WRESTLING_BACKEND_DATABASE_PASSWORD'] %>
